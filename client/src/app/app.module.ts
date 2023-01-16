@@ -9,6 +9,7 @@ import { FrTarotComponent } from './fr-tarot/fr-tarot.component';
 import { RummyComponent } from './rummy/rummy.component';
 import { PokerComponent } from './poker/poker.component';
 import { LustikComponent } from './lustik/lustik.component';
+import { TarotGameComponent } from './tarot/tarot-game/tarot-game.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LustikComponent } from './lustik/lustik.component';
     FrTarotComponent,
     RummyComponent,
     PokerComponent,
-    LustikComponent
+    LustikComponent,
+    TarotGameComponent
   ],
   imports: [
     BrowserModule,

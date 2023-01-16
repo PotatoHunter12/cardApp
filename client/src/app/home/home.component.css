@@ -17,12 +17,7 @@ a:active {
 #text {
   margin-left: 8%;
 }
-h1 {
-  text-align: center;
-  margin-top: 35%;
-  margin-bottom: 10%;
-  font-size: 2.5em;
-}
+
 .sidenav {
   height: 100%;
   width: 0;

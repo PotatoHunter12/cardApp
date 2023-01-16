@@ -5,11 +5,13 @@ import { HomeComponent } from './home/home.component';
 import { LustikComponent } from './lustik/lustik.component';
 import { PokerComponent } from './poker/poker.component';
 import { RummyComponent } from './rummy/rummy.component';
+import { TarotGameComponent } from './tarot/tarot-game/tarot-game.component';
 import { TarotComponent } from './tarot/tarot.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'tarot', component: TarotComponent },
+  { path: 'tarot-game', component: TarotGameComponent },
   { path: 'fr-tarot', component: FrTarotComponent },
   { path: 'rummy', component: RummyComponent },
   { path: 'poker', component: PokerComponent },
